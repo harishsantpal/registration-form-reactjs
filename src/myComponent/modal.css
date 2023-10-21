@@ -1,0 +1,73 @@
+:root{
+    --myBlue:#345ea8;
+    --myGreen:#66cd00;
+    --myBackground:#eedbcb;
+  }
+
+
+.modalBackgorund{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -73vh;
+}
+.modalContainer{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.btnCancel{
+    align-items: center;
+    text-align: center;
+    margin-left: 92%;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+    backface-visibility: hidden;
+    background-color: white;
+    border: 2px solid white;
+}
+.btnCancel:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.modalContainer .logo{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    color: var(--myBlue);
+}
+.body h2{
+    font-size: 52px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.btnOK{
+    width: 150px;
+    background-color:var(--myGreen) ;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.btnOK:hover{
+    background-color: var(--myBlue);
+    color: white;
+}

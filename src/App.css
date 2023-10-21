@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+:root{
+  --myBlue:#345ea8;
+}
+
+body{
+  background-color: var(--myBlue);
+}
